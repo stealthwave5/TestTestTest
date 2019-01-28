@@ -11,9 +11,5 @@ if (message.content =="Hello")
 }
 
 
-Bot.on("ready", function(){
-console.log("!Bot activated!");
-})
-
 
 Bot.login(process.env.BOT_TOKEN);
